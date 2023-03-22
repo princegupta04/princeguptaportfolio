@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.sidebar{
+    background-color:rgb(223, 215, 215);
+    transition: transform 3s ease-in;
+    font-family: 'Gentium Book Plus', serif;
+    height: 140vh;
+    position:absolute;
+
+    
+}
+.sidebar nav{
+    padding: 12px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size: 15px;
+    padding:15px;
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+     background-color:#f9e9d6;
+      width:100vw;
+      height: 140vh;
+      background-size: cover;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer
+{
+    display: flex;
+    /*background-color:red; */
+    height: 65vh;
+    width:80vw;
+    justify-content: space-around;
+    margin: 114px auto;
+    margin-left:140px;
+
+}
+.hello{
+    font-size: 60px;;
+}
+
+.name{
+    font-size:50px;
+    font-weight:bold;
+}
+.about{
+    font-size:30px;
+}
+
+
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    /* font-family: 'Gentium Book Plus', serif;
+   font-family: 'Source Code Pro', monospace; */
+}
+.devpic img{
+    margin-top: 10px; 
+    box-shadow: 80%;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 50%;
+    width:20vw;
+}
+
+.devpic img:hover{
+    margin-top: 10px; 
+    box-shadow: 100%;
+    background-color: aqua;
+    border: 2px dotted greenyellow;
+    border-radius: 50%;
+    width:22vw;
+}
+
+.buttons button{
+    margin:10px;
+    border-radius:20px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color:blue;
+}
+
+.moreabout{
+    margin-top:5px;
+
+    font-weight:20px;
+}
+.contactform{
+    font-family: 'Gentium Book Plus', serif;
+    background-color: #f9e9d6;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+input{
+    border-radius: 5px;
+    font-size: smaller;
+    
+
+}
+.blogcontainer{
+    margin-left: 140px;
+}
+.blogcontainer h1{
+    margin:23px;
+}
+
+.blogitem {
+    margin:15px;
+}
+
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blogitem button{
+    font-size: 10px;
+    padding: 7px,13px;
+    margin:10px,0;
+    background-color: rgb(27, 27, 182);
+}
+
+.skill{
+    width:125px;
+    height:5px;
+    background-color: black;
+    border-radius: 5px;;
+}
+
+.ninety{
+    background-color: black;
+   border:2px solid black;
+    width:125px;
+}
+
+.eighty{
+    
+    border:2px solid black;
+    width:110px;
+}
+
+.seventyfive{
+    
+    border:2px solid black;
+    width:100px;
+}
+.eightyfive{
+
+
+   border:2px solid black;
+    width:105px;
+
+}
+
+.sixty{
+ 
+   border:2px solid black;
+    width:75px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family:'Source Code Pro', monospace ;
+}
+
+.intro{
+    margin:10px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    padding:10px;
+    padding-bottom: 30px;
+}
+
+h2{
+    margin:20px;
+}
+
+.sidebargo{
+    transform: translate(-434px,0px);
+    position :absolute;
+    
+}
+
+@media (max-width: 452px)
+{
+   
+  .devpic{
+    display: none;
+  }
+
+  .intro, .blogcontainer, .contactform{
+    margin: 8px;
+  }
+    
+}
+
+.hamburger{
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+
+.cross{
+    margin-left: 95px;
+}
